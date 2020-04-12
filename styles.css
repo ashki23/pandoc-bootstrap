@@ -1,0 +1,267 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #555;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    font-size: 90%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+pre {
+    color: #333;
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee
+}
+
+.bd-navbar {
+    background-color: #563d7c;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1)
+}
+
+.bd-navbar .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #cbbde2
+}
+
+.bd-navbar .navbar-nav .nav-link.active,
+.bd-navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+.bd-navbar .navbar-nav .nav-link.active {
+    font-weight: 600
+}
+
+.bd-toc {
+    -ms-flex-order: 2;
+    order: 2;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: .875rem
+}
+
+@supports ((position: -webkit-sticky) or(position: sticky)) {
+    .bd-toc {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 4rem;
+	height: calc(100vh - 4rem);
+	overflow-y: auto
+	}
+}
+
+.section-nav {
+    padding-left: 0;
+    border-left: 1px solid #eee
+}
+
+.section-nav ul {
+    padding-left: 1rem
+}
+
+.toc-entry {
+    margin-left: -15px;
+    display: block
+}
+
+.toc-entry a {
+    display: block;
+    padding: .125rem 1.5rem;
+    color: #77757a
+}
+
+.toc-entry a:hover {
+    color: #007bff;
+    text-decoration: none
+}
+
+.toc-entry ul {
+    list-style: none;
+}
+
+
+/* Alert */
+code span.al {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Annotation */
+code span.an {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Attribute */
+code span.at {
+    color: #7d9029;
+}
+
+/* BaseN */
+code span.bn {
+    color: #40a070;
+}
+
+/* BuiltIn */
+code span.bu {}
+
+/* ControlFlow */
+code span.cf {
+    color: #007020;
+    font-weight: bold;
+}
+
+/* Char */
+code span.ch {
+    color: #4070a0;
+}
+
+/* Constant */
+code span.cn {
+    color: #880000;
+}
+
+/* Comment */
+code span.co {
+    color: #60a0b0;
+    font-style: italic;
+}
+
+/* CommentVar */
+code span.cv {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Documentation */
+code span.do {
+    color: #ba2121;
+    font-style: italic;
+}
+
+/* DataType */
+code span.dt {
+    color: #902000;
+}
+
+/* DecVal */
+code span.dv {
+    color: #40a070;
+}
+
+/* Error */
+code span.er {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Extension */
+code span.ex {}
+
+/* Float */
+code span.fl {
+    color: #40a070;
+}
+
+/* Function */
+code span.fu {
+    color: #06287e;
+}
+
+/* Import */
+code span.im {}
+
+/* Information */
+code span.in {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Keyword */
+code span.kw {
+    color: #007020;
+    font-weight: bold;
+}
+
+/* Operator */
+code span.op {
+    color: #666666;
+}
+
+/* Other */
+code span.ot {
+    color: #007020;
+}
+
+
+/* Preprocessor */
+code span.pp {
+    color: #bc7a00;
+}
+
+/* SpecialChar */
+code span.sc {
+    color: #4070a0;
+}
+
+/* SpecialString */
+code span.ss {
+    color: #bb6688;
+}
+
+/* String */
+code span.st {
+    color: #4070a0;
+}
+
+/* Variable */
+code span.va {
+    color: #19177c;
+}
+
+/* VerbatimString */
+code span.vs {
+    color: #4070a0;
+}
+
+/* Warning */
+code span.wa {
+    color: #60a0b0;
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,4 +1,4 @@
-# pandoc-bootstrap4-template
+# pandoc-template
 Bootstrap 4 template for Pandoc - Converts markdown files into Twitter Bootstrap styled HTML
 
 ```

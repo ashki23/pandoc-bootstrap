@@ -1,6 +1,7 @@
 ---
 title: "Markdown introduction"
 author: "Ashkan Mirzaee"
+description: "An introduction to Markdown"
 ---
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). A  Markdown document could contain chunks of embedded graphics, source codes and LaTex formula. A basic knowledge about Markdown could help u to create HTML documents such as weblogs or reports easily. This tutorial provides a quick reference to use Markdown.

@@ -11,12 +11,12 @@ body {
 
 .footer {
     background-color: #f8f9fa;
-    font-size: 90%;
+    font-size: 85%;
     position: absolute;
     bottom: 0;
     width: 100%;
     min-height: 2em;
-    padding-top: 1em;
+    padding-top: 0.75em;
     overflow: hidden;
 }
 
@@ -112,7 +112,6 @@ blockquote {
 .toc-entry ul {
     list-style: none;
 }
-
 
 /* Alert */
 code span.al {

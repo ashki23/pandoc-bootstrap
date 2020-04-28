@@ -48,26 +48,6 @@ blockquote {
     color: inherit
 }
 
-.bd-navbar {
-    background-color: #563d7c
-}
-
-.bd-navbar .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
-    color: #cbbde2
-}
-
-.bd-navbar .navbar-nav .nav-link.active,
-.bd-navbar .navbar-nav .nav-link:hover {
-    color: #fff;
-    background-color: transparent
-}
-
-.bd-navbar .navbar-nav .nav-link.active {
-    font-weight: 600
-}
-
 .bd-toc {
     -ms-flex-order: 2;
     order: 2;

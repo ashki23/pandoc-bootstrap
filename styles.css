@@ -1,12 +1,12 @@
 html {
     position: relative;
-    min-height: 100%;
+    min-height: 100%
 }
 
 body {
     color: #555;
     padding-top: 80px;
-    padding-bottom: 140px;
+    padding-bottom: 140px
 }
 
 .footer {
@@ -17,7 +17,7 @@ body {
     width: 100%;
     min-height: 2em;
     padding-top: 0.75em;
-    overflow: hidden;
+    overflow: hidden
 }
 
 pre {
@@ -35,7 +35,7 @@ pre {
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    -moz-border-radius: 4px
 }
 
 blockquote {
@@ -46,8 +46,7 @@ blockquote {
 }
 
 .bd-navbar {
-    background-color: #563d7c;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1)
+    background-color: #563d7c
 }
 
 .bd-navbar .navbar-nav .nav-link {

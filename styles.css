@@ -13,13 +13,12 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-weight: 300
 }
 
 h6 {
-    font-family: Palatino, serif;
-    font-weight: 300;
     color: #555
 }
 
@@ -55,7 +54,7 @@ pre {
 blockquote {
     padding: 10px 25px 1px;
     margin: 0 0 25px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 125%;
     border-left: 2px solid #eee
 }
@@ -92,16 +91,16 @@ blockquote {
 .bd-toc {
     -ms-flex-order: 2;
     order: 2;
+    top: 3rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: .875rem
 }
 
-@supports ((position: -webkit-sticky) or(position: sticky)) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
     .bd-toc {
         position: -webkit-sticky;
         position: sticky;
-        top: 3rem;
         height: calc(100vh - 4rem);
         overflow-y: auto
     }

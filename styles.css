@@ -5,12 +5,26 @@ html {
 
 body {
     color: #333;
-    padding-top: 80px;
-    padding-bottom: 140px
+    padding-top: 4rem;
+    padding-bottom: 8rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300
+}
+
+h6 {
+    font-family: Palatino, serif;
+    font-weight: 300;
+    color: #555
 }
 
 .footer {
-    background-color: #f8f9fa;
+    background-color: #f7f7f7;
     font-size: 85%;
     position: absolute;
     bottom: 0;
@@ -25,6 +39,7 @@ pre {
     display: block;
     padding: 9.5px;
     margin: 0 0 10px;
+    font-size: 80%;
     line-height: 20px;
     word-break: break-all;
     word-wrap: break-word;
@@ -40,12 +55,38 @@ pre {
 blockquote {
     padding: 10px 25px 1px;
     margin: 0 0 25px;
+    font-weight: 300;
     font-size: 125%;
     border-left: 2px solid #eee
 }
 
 .table {
     color: inherit
+}
+
+.navbar {
+    padding-top: .25rem;
+    padding-bottom: .25rem
+}
+
+.bd-navbar {
+    background-color: #563d7c
+}
+
+.bd-navbar .navbar-nav .nav-link {
+    padding-right: .65rem;
+    padding-left: .65rem;
+    color: #cbbde2
+}
+
+.bd-navbar .navbar-nav .nav-link.active,
+.bd-navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+.bd-navbar .navbar-nav .nav-link.active {
+    font-weight: 600
 }
 
 .bd-toc {
@@ -58,12 +99,12 @@ blockquote {
 
 @supports ((position: -webkit-sticky) or(position: sticky)) {
     .bd-toc {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 4rem;
-	height: calc(100vh - 4rem);
-	overflow-y: auto
-	}
+        position: -webkit-sticky;
+        position: sticky;
+        top: 3rem;
+        height: calc(100vh - 4rem);
+        overflow-y: auto
+    }
 }
 
 .section-nav {
@@ -92,7 +133,7 @@ blockquote {
 }
 
 .toc-entry ul {
-    list-style: none;
+    list-style: none
 }
 
 /* Alert */

@@ -18,9 +18,7 @@
       $endfor$
    </head>
    <body>
-      $for(include-before)$
-      $include-before$
-      $endfor$
+      $for(include-before)$$include-before$$endfor$
       <div class="container" style="font-size: 110%"> 
          $if(title)$<h1 class="title">$title$</h1>$endif$
          $if(toc)$
@@ -32,9 +30,7 @@
                </ul>
             </div>
          </div>
-         $else$
-	 $body$
-	 $endif$
+         $else$$body$$endif$
       </div>
       <!-- jQuery and Bootstrap's JavaScript plugins -->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

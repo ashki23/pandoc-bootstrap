@@ -58,7 +58,10 @@ blockquote {
 }
 
 .table {
-    color: inherit
+    color: inherit;
+    font-size: 90%;
+    display: inline-block;
+    overflow: scroll
 }
 
 .navbar {

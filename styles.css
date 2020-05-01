@@ -1,12 +1,12 @@
 html {
     position: relative;
-    min-height: 100%
+    min-height: 100%;
 }
 
 body {
     color: #333;
     padding-top: 4rem;
-    padding-bottom: 8rem
+    padding-bottom: 8rem;
 }
 
 h1,
@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 300
+    font-weight: 300;
 }
 
 h6 {
-    color: #555
+    color: #555;
 }
 
 .footer {
@@ -30,7 +30,7 @@ h6 {
     width: 100%;
     min-height: 2em;
     padding-top: 0.75em;
-    overflow: hidden
+    overflow: hidden;
 }
 
 pre {
@@ -46,7 +46,7 @@ pre {
     white-space: pre-wrap;
     background-color: #f8f9fa;
     border: 1px solid #ccc;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 blockquote {
@@ -54,39 +54,40 @@ blockquote {
     margin: 0 0 25px;
     font-weight: 400;
     font-size: 125%;
-    border-left: 2px solid #eee
+    border-left: 2px solid #eee;
 }
 
 .table {
     color: inherit;
     font-size: 90%;
-    display: inline-block;
-    overflow: scroll
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
     padding-top: .25rem;
-    padding-bottom: .25rem
+    padding-bottom: .25rem;
 }
 
 .bd-navbar {
-    background-color: #563d7c
+    background-color: #563d7c;
 }
 
 .bd-navbar .navbar-nav .nav-link {
     padding-right: .65rem;
     padding-left: .65rem;
-    color: #cbbde2
+    color: #cbbde2;
 }
 
 .bd-navbar .navbar-nav .nav-link.active,
 .bd-navbar .navbar-nav .nav-link:hover {
     color: #fff;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .bd-navbar .navbar-nav .nav-link.active {
-    font-weight: 600
+    font-weight: 600;
 }
 
 .bd-toc {
@@ -98,36 +99,36 @@ blockquote {
     padding-bottom: 1.5rem;
     height: calc(100vh - 4rem);
     overflow-y: auto;
-    font-size: .875rem
+    font-size: .875rem;
 }
 
 .section-nav {
     padding-left: 0;
-    border-left: 1px solid #eee
+    border-left: 1px solid #eee;
 }
 
 .section-nav ul {
-    padding-left: 1rem
+    padding-left: 1rem;
 }
 
 .toc-entry {
     margin-left: -15px;
-    display: block
+    display: block;
 }
 
 .toc-entry a {
     display: block;
     padding: .125rem 1.5rem;
-    color: #77757a
+    color: #77757a;
 }
 
 .toc-entry a:hover {
     color: #007bff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .toc-entry ul {
-    list-style: none
+    list-style: none;
 }
 
 /* Alert */

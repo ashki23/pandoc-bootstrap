@@ -28,8 +28,8 @@ h6 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 2em;
-    padding-top: 0.75em;
+    min-height: 2rem;
+    padding-top: 1rem;
     overflow: hidden;
 }
 

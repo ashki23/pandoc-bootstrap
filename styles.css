@@ -46,9 +46,7 @@ pre {
     white-space: pre-wrap;
     background-color: #f8f9fa;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px
+    border-radius: 4px
 }
 
 blockquote {
@@ -89,21 +87,15 @@ blockquote {
 }
 
 .bd-toc {
-    -ms-flex-order: 2;
     order: 2;
     top: 3rem;
+    right: 0;
+    position: fixed;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
     font-size: .875rem
-}
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .bd-toc {
-        position: -webkit-sticky;
-        position: sticky;
-        height: calc(100vh - 4rem);
-        overflow-y: auto
-    }
 }
 
 .section-nav {

@@ -28,21 +28,18 @@ h6 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 2rem;
+    max-height: 8rem;
     padding-top: 1rem;
-    overflow: hidden;
+    overflow: visible;
 }
 
 pre {
     color: #333;
+    font-size: 90%;
     display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 80%;
-    line-height: 20px;
+    padding: .75rem;
     word-break: break-all;
     word-wrap: break-word;
-    white-space: pre;
     white-space: pre-wrap;
     background-color: #f8f9fa;
     border: 1px solid #ccc;
@@ -50,11 +47,11 @@ pre {
 }
 
 blockquote {
-    padding: 10px 25px 1px;
-    margin: 0 0 25px;
+    padding: 1rem 2rem .1rem;
+    margin: 1rem 0 1rem;
     font-weight: 400;
     font-size: 125%;
-    border-left: 2px solid #eee;
+    border-left: 2px solid #ccc;
 }
 
 .table {
@@ -72,6 +69,8 @@ blockquote {
 
 .bd-navbar {
     background-color: #563d7c;
+    max-height: 3rem;
+    overflow: scroll;
 }
 
 .bd-navbar .navbar-nav .nav-link {
@@ -107,12 +106,8 @@ blockquote {
     border-left: 1px solid #eee;
 }
 
-.section-nav ul {
-    padding-left: 1rem;
-}
-
 .toc-entry {
-    margin-left: -15px;
+    margin-left: -1rem;
     display: block;
 }
 

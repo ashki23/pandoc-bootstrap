@@ -35,7 +35,7 @@ h6 {
 
 pre {
     color: #333;
-    font-size: 90%;
+    font-size: 85%;
     display: block;
     padding: .75rem;
     word-break: break-all;
@@ -106,8 +106,12 @@ blockquote {
     border-left: 1px solid #eee;
 }
 
+.section-nav ul {
+    padding-left: 1rem;
+}
+
 .toc-entry {
-    margin-left: -1rem;
+    margin-left: -2.5rem;
     display: block;
 }
 

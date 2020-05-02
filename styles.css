@@ -69,8 +69,6 @@ blockquote {
 
 .bd-navbar {
     background-color: #563d7c;
-    max-height: 3rem;
-    overflow: scroll;
 }
 
 .bd-navbar .navbar-nav .nav-link {
@@ -111,7 +109,7 @@ blockquote {
 }
 
 .toc-entry {
-    margin-left: -2.5rem;
+    margin-left: -15px;
     display: block;
 }
 

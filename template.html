@@ -18,13 +18,15 @@
       $endfor$
    </head>
    <body>
-      $for(include-before)$$include-before$$endfor$
-      <div class="container" style="font-size: 110%"> 
+      $for(include-before)$
+      $include-before$
+      $endfor$
+      <div class="container">
          $if(title)$<h1 class="title">$title$</h1>$endif$
          $if(toc)$
          <div class="row">
             <div class="col-xl-10">$body$</div>
-            <div class="d-none d-xl-block col-xl-2 bd-toc" style="position: fixed; right: 0; font-size: 14px">
+            <div class="d-none d-xl-block col-xl-2 bd-toc">
                <ul class="section-nav">
                   <li class="toc-entry">$toc$</li>
                </ul>
@@ -32,6 +34,9 @@
          </div>
          $else$$body$$endif$
       </div>
+      $for(include-after)$
+      $include-after$
+      $endfor$
       <!-- jQuery and Bootstrap's JavaScript plugins -->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -49,8 +54,5 @@
          window.addEventListener("hashchange", shiftWindow);
          function load() { if (window.location.hash) shiftWindow(); }
       </script>
-      $for(include-after)$
-      $include-after$
-      $endfor$
    </body>
 </html>

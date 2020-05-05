@@ -47,7 +47,7 @@ blockquote {
 }
 
 .pagination {
-    font-size: 1rem;
+    font-size: .95rem;
     margin-top: 4rem;
 }
 
@@ -63,6 +63,7 @@ blockquote {
 }
 
 .table {
+    font-size: 1rem;
     color: inherit;
     width: auto;
     margin: auto;

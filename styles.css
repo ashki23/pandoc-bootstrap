@@ -35,21 +35,31 @@ pre {
 }
 
 blockquote {
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 300;
+    font-size: 1.35rem;
     margin: 1rem 0 2rem;
     border-left: 2px solid #ccc;
     padding-left: 2rem;
 }
 
+.container {
+    font-size: 1.1rem;
+
+}
+
+.pagination {
+    font-size: 1rem;
+    margin: 4rem 0 2rem;
+}
+
 .footer {
     background-color: #f7f7f7;
     font-size: .85rem;
+    padding: .875rem 0 .875rem;
     position: absolute;
     bottom: 0;
     width: 100%;
-    max-height: 8rem;
-    padding-top: 1rem;
+    max-height: 6rem;
     overflow: visible;
 }
 

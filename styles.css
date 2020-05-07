@@ -35,7 +35,7 @@ pre {
 }
 
 blockquote {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.35rem;
     margin: 1rem 0 2rem;
     border-left: 2px solid #ccc;
@@ -158,7 +158,9 @@ code span.bn {
 }
 
 /* BuiltIn */
-code span.bu {}
+code span.bu {
+    color: #06287e;
+}
 
 /* ControlFlow */
 code span.cf {
@@ -212,7 +214,9 @@ code span.er {
 }
 
 /* Extension */
-code span.ex {}
+code span.ex {
+    color: #06287e;
+}
 
 /* Float */
 code span.fl {

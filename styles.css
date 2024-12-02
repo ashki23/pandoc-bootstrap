@@ -18,3 +18,11 @@ blockquote {
     border-left: 3px solid;
     border-color: var(--bs-secondary-border-subtle);
 }
+
+/* Scrollable navbar for small screens */
+@media (max-width: 992px) {
+    .scrollable-navbar {
+	max-height: calc(100vh - var(--bs-navbar-height, 60px));
+	overflow-y: auto;
+    }
+}

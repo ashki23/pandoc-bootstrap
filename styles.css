@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+}
+
+.hljs {
+    padding: 1.25rem 1em !important;
+    border: solid var(--bs-border-color);
+    border-width: var(--bs-border-width);
+    border-radius: var(--bs-border-radius);
+    background-color: var(--bd-pre-bg);
+}
+
+blockquote {
+    font-size: 1.35rem;
+    color: var(--bs-secondary-color);
+    margin: 1rem 0 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid;
+    border-color: var(--bs-secondary-border-subtle);
+}

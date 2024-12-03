@@ -1,62 +1,71 @@
+/* General Link Styles */
 a {
     text-decoration: none;
 }
 
-/* Code block */
+/* Code Block Styles */
 .hljs {
     padding: 1.25rem 1em !important;
-    border: solid var(--bs-border-color);
-    border-width: var(--bs-border-width);
+    border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
     background-color: var(--bd-pre-bg);
 }
 
-/* Quote block */
+/* Blockquote Styles */
 blockquote {
     font-size: 1.35rem;
     color: var(--bs-secondary-color);
     margin: 1rem 0 1.5rem;
     padding-left: 1.5rem;
-    border-left: 3px solid;
-    border-color: var(--bs-secondary-border-subtle);
+    border-left: 3px solid var(--bs-secondary-border-subtle);
 }
 
-/* Navbar colors */
+/* Navbar Styles */
+.navbar,
+.navbar::after {
+    background-image: linear-gradient(rgba(var(--bs-dark-rgb), 1), rgba(var(--bs-dark-rgb), 0.95));
+}
+
+/* Navbar Brand Styles */
 .navbar .navbar-brand {
-    /*color: #fff;*/
     color: var(--bs-white);
 }
 
+/* Navbar Items Styles */
 .navbar .nav-link,
 .navbar .nav-line,
-.navbar .navbar-toggler  {
-    /*color: rgba(255,255,255,0.85);*/
+.navbar .navbar-toggler {
     color: rgba(var(--bs-white-rgb), 0.85);
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active,
 .navbar .nav-link.show,
-.navbar .navbar-toggler:hover  {
-    /*color: #fff;*/
+.navbar .navbar-toggler:hover {
     color: var(--bs-white);
 }
 
-.navbar::after {
-    background-image: linear-gradient(rgba(var(--bs-dark-rgb), 1), rgba(var(--bs-dark-rgb), 0.95));
-    /*background-image: none;*/
-    /*background-color: rgba(var(--bs-dark-rgb), 0.98);*/
+/* Navbar Dropdown Menu Styles */
+.navbar .dropdown-menu {
+    --bs-dropdown-link-active-bg: unset;
+    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
 }
 
-/* Navbar toggler */
+/* TOC Styles */
+.bd-toc nav a:hover,
+.bd-toc nav a.active {
+    --bd-toc-color: rgba(var(--bs-secondary-color-rgb, 0.95));
+}
+
+/* Navbar Toggler Styles */
 .navbar .navbar-toggler {
     border: none;
 }
 
-/* Scrollable navbar for small screens */
+/* Scrollable Navbar for Small Screens */
 @media (max-width: 992px) {
     .scrollable-navbar {
-	max-height: calc(100vh - 60px);
-	overflow-y: auto;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
     }
 }

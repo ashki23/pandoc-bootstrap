@@ -2,6 +2,7 @@ a {
     text-decoration: none;
 }
 
+/* Code block */
 .hljs {
     padding: 1.25rem 1em !important;
     border: solid var(--bs-border-color);
@@ -10,6 +11,7 @@ a {
     background-color: var(--bd-pre-bg);
 }
 
+/* Quote block */
 blockquote {
     font-size: 1.35rem;
     color: var(--bs-secondary-color);
@@ -17,6 +19,38 @@ blockquote {
     padding-left: 1.5rem;
     border-left: 3px solid;
     border-color: var(--bs-secondary-border-subtle);
+}
+
+/* Navbar colors */
+.navbar .navbar-brand {
+    /*color: #fff;*/
+    color: var(--bs-white);
+}
+
+.navbar .nav-link,
+.navbar .nav-line,
+.navbar .navbar-toggler  {
+    /*color: rgba(255,255,255,0.85);*/
+    color: rgba(var(--bs-white-rgb), 0.85);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active,
+.navbar .nav-link.show,
+.navbar .navbar-toggler:hover  {
+    /*color: #fff;*/
+    color: var(--bs-white);
+}
+
+.navbar::after {
+    background-image: linear-gradient(rgba(var(--bs-dark-rgb), 1), rgba(var(--bs-dark-rgb), 0.95));
+    /*background-image: none;*/
+    /*background-color: rgba(var(--bs-dark-rgb), 0.98);*/
+}
+
+/* Navbar toggler */
+.navbar .navbar-toggler {
+    border: none;
 }
 
 /* Scrollable navbar for small screens */

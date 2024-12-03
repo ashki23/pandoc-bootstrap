@@ -1,16 +1,15 @@
-<!-- Navbar from https://getbootstrap.com/docs/5.3/components/navbar/ -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-gradient">
+<nav class="navbar bd-navbar navbar-expand-lg fixed-top">
   <div class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
     <!-- Brand -->
     <a class="navbar-brand" href="#">Navbar</a>
     
     <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list fs-1"></i>
     </button>
     
     <!-- Navbar Content -->
-    <div class="collapse navbar-collapse scrollable-navbar" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse scrollable-navbar" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -41,7 +40,10 @@
       </form>
       
       <!-- Divider for larger screens -->
-      <div class="vr d-none d-lg-flex mx-2 my-1 text-white"></div>
+      <div class="vr d-none d-lg-flex mx-2 my-1 nav-line"></div>
+
+      <!-- Divider for smaller screens -->
+      <hr class="d-lg-none nav-line">
       
       <!-- Theme Dropdown -->
       <ul class="navbar-nav">

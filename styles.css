@@ -56,7 +56,7 @@ blockquote {
 /* Scrollable navbar for small screens */
 @media (max-width: 992px) {
     .scrollable-navbar {
-	max-height: calc(100vh - var(--bs-navbar-height, 60px));
+	max-height: calc(100vh - 60px);
 	overflow-y: auto;
     }
 }

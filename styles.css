@@ -94,5 +94,11 @@ blockquote {
     .scrollable-navbar {
         max-height: calc(100vh - var(--navbar-height));
         overflow-y: auto;
+	scrollbar-width: none; /* Hide scrollbar in Firefox */
+    }
+
+    /* Hide scrollbar in Chrome, Edge, Safari */
+    .scrollable-navbar::-webkit-scrollbar {
+	display: none;
     }
 }

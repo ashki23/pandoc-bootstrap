@@ -1,6 +1,20 @@
+/* Global Variables */
+:root {
+    --navbar-padding: 8px;
+    --navbar-height: calc(42px + 2 * var(--navbar-padding));
+    --navbar-font-color: var(--bs-white-rgb);
+    --navbar-bg-color: var(--bs-dark-rgb);
+    --bd-toc-color: rgba(var(--bs-secondary-color-rgb), 0.95);
+}
+
 /* General Link Styles */
 a {
     text-decoration: none;
+}
+
+/* Layout Styles */
+.bd-layout {
+    margin-top: calc(var(--navbar-height) + 1.5rem);
 }
 
 /* Code Block Styles */
@@ -20,41 +34,49 @@ blockquote {
     border-left: 3px solid var(--bs-secondary-border-subtle);
 }
 
+/* Pagination Styles */
+.pagination {
+    margin-top: 3rem;
+}
+
+/* Footer Styles */
+.footer {
+    font-size: 0.875rem;
+}
+
 /* Navbar Styles */
 .navbar,
 .navbar::after {
-    background-image: linear-gradient(rgba(var(--bs-dark-rgb), 1), rgba(var(--bs-dark-rgb), 0.95));
+    padding-top: var(--navbar-padding);
+    padding-bottom: var(--navbar-padding);
+    background-image: linear-gradient(rgba(var(--navbar-bg-color), 1), rgba(var(--navbar-bg-color), 0.95));
 }
 
 /* Navbar Brand Styles */
-.navbar .navbar-brand {
-    color: var(--bs-white);
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
+    color: rgba(var(--navbar-font-color), 1);
+    transform: none;
 }
 
 /* Navbar Items Styles */
 .navbar .nav-link,
 .navbar .nav-line,
 .navbar .navbar-toggler {
-    color: rgba(var(--bs-white-rgb), 0.85);
+    color: rgba(var(--navbar-font-color), 0.85);
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active,
 .navbar .nav-link.show,
 .navbar .navbar-toggler:hover {
-    color: var(--bs-white);
+    color: rgba(var(--navbar-font-color), 1);
 }
 
 /* Navbar Dropdown Menu Styles */
 .navbar .dropdown-menu {
     --bs-dropdown-link-active-bg: unset;
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
-}
-
-/* TOC Styles */
-.bd-toc nav a:hover,
-.bd-toc nav a.active {
-    --bd-toc-color: rgba(var(--bs-secondary-color-rgb, 0.95));
 }
 
 /* Navbar Toggler Styles */
@@ -65,7 +87,7 @@ blockquote {
 /* Scrollable Navbar for Small Screens */
 @media (max-width: 992px) {
     .scrollable-navbar {
-        max-height: calc(100vh - 60px);
+        max-height: calc(100vh - var(--navbar-height));
         overflow-y: auto;
     }
 }

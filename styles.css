@@ -4,7 +4,12 @@
     --navbar-height: calc(42px + 2 * var(--navbar-padding));
     --navbar-font-color: var(--bs-white-rgb);
     --navbar-bg-color: var(--bs-dark-rgb);
-    --bd-toc-color: rgba(var(--bs-secondary-color-rgb), 0.95);
+    --bd-toc-color: rgba(var(--bs-dark-rgb), 1);
+}
+
+/* Dark Theme Variables */
+[data-bs-theme="dark"] {
+    --bd-toc-color: rgba(var(--bs-white-rgb), 1);
 }
 
 /* General Link Styles */
